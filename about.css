@@ -13,12 +13,10 @@ h1 {
 
 p {
   font-family: "Permanent Marker", cursive;
-  font-weight: 350;
   font-size: 25px;
   padding-left: 250px;
   padding-right: 300px;
   padding-bottom: 25px;
-  font-style: bold;
 }
 
 strong {
