@@ -1,0 +1,88 @@
+body {
+  background-color: #faf9f6;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 70px;
+  padding-top: 80px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: 80px;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: -20px;
+  padding-left: 250px;
+  padding-right: 300px;
+  padding-bottom: 10px;
+  font-style: bold;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-name: animate-fade;
+  animation-delay: 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.delay1 {
+  animation-delay: 1.75s;
+}
+
+.delay2 {
+  animation-delay: 2.75s;
+}
+
+.delay3 {
+  animation-delay: 3.75s;
+}
+
+.topnav {
+  float: right;
+  overflow: hidden;
+  font-family: "Permanent Marker", cursive;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 0px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  color: #b3483a;
+}
+
+.active {
+  color: #6c90a5;
+}
+
+.inactive {
+  color: black;
+}
